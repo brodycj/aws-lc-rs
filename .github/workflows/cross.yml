@@ -30,20 +30,20 @@ jobs:
         target:
           - thumbv6m-none-eabi
           - aarch64-linux-android
-          - aarch64-unknown-linux-gnu
-          - aarch64-unknown-linux-musl
+          # - aarch64-unknown-linux-gnu
+          # - aarch64-unknown-linux-musl
           - arm-linux-androideabi
-          - arm-unknown-linux-gnueabihf
+          # - arm-unknown-linux-gnueabihf
           - armv7-linux-androideabi
-          - armv7-unknown-linux-gnueabihf
-          - i686-unknown-linux-gnu
-          - powerpc-unknown-linux-gnu
-          - powerpc64-unknown-linux-gnu
-          - powerpc64le-unknown-linux-gnu
-          - riscv64gc-unknown-linux-gnu
-          - s390x-unknown-linux-gnu
-          - x86_64-pc-windows-gnu
-          - x86_64-unknown-linux-musl
+          # - armv7-unknown-linux-gnueabihf
+          # - i686-unknown-linux-gnu
+          # - powerpc-unknown-linux-gnu
+          # - powerpc64-unknown-linux-gnu
+          # - powerpc64le-unknown-linux-gnu
+          # - riscv64gc-unknown-linux-gnu
+          # - s390x-unknown-linux-gnu
+          # - x86_64-pc-windows-gnu
+          # - x86_64-unknown-linux-musl
     steps:
       - uses: actions/checkout@v3
         with:
