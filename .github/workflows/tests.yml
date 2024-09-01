@@ -123,6 +123,7 @@ jobs:
         run: cargo test ${{ matrix.args }}
 
   aws-lc-rs-coverage:
+    if: github.repository_owner == 'aws'
     name: aws-ls-rs coverage
     runs-on: ubuntu-latest
     steps:
