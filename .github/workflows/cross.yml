@@ -20,7 +20,7 @@ env:
 
 jobs:
   aws-lc-rs-cross-test:
-    if: github.repository_owner == 'aws'
+    # if: github.repository_owner == 'aws'
     name: aws-lc-rs cross tests
     runs-on: ${{ matrix.os }}
     strategy:
