@@ -21,7 +21,7 @@ env:
 jobs:
 
   aws-lc-rs-test:
-    if: github.repository_owner == 'aws'
+    # if: github.repository_owner == 'aws'
     name: aws-lc-rs tests
     runs-on: ${{ matrix.os }}
     strategy:
